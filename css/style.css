@@ -608,3 +608,57 @@ section.big-deal .timer div span:last-child {
     font-family: "Raleway-medium";
     color: var(--heaven);
 }
+
+/*------- Latest News Section -------*/
+
+section.latest-news {
+    background: var(--light);
+    position: relative;
+    z-index: 0;
+}
+
+section.latest-news .article-wrapper {
+    display: flex;
+    margin-right: -2rem;
+}
+
+section.latest-news .article-wrapper .card {
+    margin-right: 2rem;
+    background: var(--heaven);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+section.latest-news .article-wrapper .card img {
+    width: 100%;
+}
+
+section.latest-news .article-wrapper .card .card-content {
+    padding: 2rem;
+}
+
+section.latest-news .article-wrapper .card .card-content .post-meta {
+    margin-bottom: 1rem;
+}
+
+section.latest-news .article-wrapper .card .card-content .post-meta .comment-count {
+    margin-left: 1rem;
+}
+
+
+section.latest-news .article-wrapper .card .card-content h2 {
+    font-family: "Raleway-bold";
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+section.latest-news .article-wrapper .card .card-content p {
+    line-height: 1.6;
+}
+
+section.latest-news .btn-wrapper {
+    margin-top: 2rem;
+}
